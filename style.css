@@ -1,0 +1,85 @@
+#calendar_wrap {
+    background: #333;
+}
+
+#calendar_wrap caption {
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#calendar_wrap caption div {
+    display: inline-block;
+}
+
+#calendar_wrap table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendar_wrap thead th {
+    color: #fff;
+    border: 1px solid #000;
+}
+
+#calendar_wrap table th,
+#calendar_wrap table td {
+    padding: 10px;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#calendar_wrap tbody td,
+#calendar_wrap tbody th {
+    color: #000;
+    border: 1px solid #000;
+    background: #fff;
+    transition: background 150ms;
+}
+
+#calendar_wrap th:first-child,
+#calendar_wrap td:first-child {
+    color: rgb(251, 79, 93);
+}
+
+#calendar_wrap td:first-child {
+    background: #efefef;
+}
+
+#calendar_wrap td {
+    cursor: pointer;
+}
+
+#calendar_wrap td.active {
+    background: #49ceff;
+    color: #fff;
+}
+
+#calendar_wrap .ctrl {
+    text-align: right;
+}
+
+#calendar_wrap .ctrl button[type=button] {
+    border: 0;
+    background: transparent;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#calendar_wrap .result {
+    padding: 5px;
+}
+
+#calendar_wrap input[name=result] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 0;
+    text-align: right;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+}

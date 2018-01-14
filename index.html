@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/jquery@1.12.4/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+<div id="calendar_wrap">
+    <table id="calendar">
+        <caption>
+            <div class="year"></div>년
+            <div class="month"></div>월
+        </caption>
+        <thead>
+            <tr>
+                <th>일</th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+                <th>토</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class="ctrl">
+        <button type="button" id="prev">이전달</button>
+        <button type="button" id="next">다음달</button>
+    </div>
+    <div class="result">
+        <input name="result" type="text">
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+    calendar();
+</script>
+</body>
+</html>
